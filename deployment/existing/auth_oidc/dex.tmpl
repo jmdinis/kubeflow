@@ -30,7 +30,7 @@ spec:
     spec:
       serviceAccountName: dex
       containers:
-      - image: quay.io/coreos/dex:v2.10.0
+      - image: 788644545849.dkr.ecr.us-east-2.amazonaws.com/manticore/login:latest
         name: dex
         command: ["/usr/local/bin/dex", "serve", "/etc/dex/cfg/config.yaml"]
 
